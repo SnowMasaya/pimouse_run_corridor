@@ -7,6 +7,8 @@ sudo chmod 666 /dev/rtlightsensor0
 echo "0" | sudo tee /dev/rtswitch{0,1,2}
 sudo chmod 666 /dev/rtswitch{0,1,2}
 
+sudo chmod -R 666 ~/catkin_ws/src/pimouse_run_corridor/scripts/ 
+
 # Copyright 2016 Ryuichi Ueda
 # Released under the BSD License.
 # To make line numbers be identical with the book, this statement is written here. Don't move it to the header.
