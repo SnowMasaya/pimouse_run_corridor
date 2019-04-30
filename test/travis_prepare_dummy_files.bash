@@ -9,8 +9,8 @@ sudo chmod 666 /dev/rtswitch{0,1,2}
 
 sudo chmod -R 666 ~/catkin_ws/src/pimouse_ros/scripts/ 
 sudo chmod -R 666 ~/catkin_ws/src/pimouse_run_corridor/scripts/ 
-sudo chmod -R 666 ~/catkin_ws/src/pimouse_ros/test/ 
-sudo chmod -R 666 ~/catkin_ws/src/pimouse_run_corridor/test/ 
+sudo chmod -R 777 ~/catkin_ws/src/pimouse_ros/test/ 
+sudo chmod -R 777 ~/catkin_ws/src/pimouse_run_corridor/test/ 
 
 # Copyright 2016 Ryuichi Ueda
 # Released under the BSD License.
